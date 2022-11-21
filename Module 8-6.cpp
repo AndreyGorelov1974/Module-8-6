@@ -48,5 +48,5 @@ int main() {
         numberSwings++;
     }
 
-    std::cout << "До остановки маятник качнётся: " << numberSwings << "раз.";
+    std::cout << "Количество качаний до остановки маятника: " << numberSwings;
 }
