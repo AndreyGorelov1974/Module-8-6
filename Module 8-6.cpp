@@ -44,7 +44,6 @@ int main() {
 
     while (currentAmplitude > stopAmplitude) {
         currentAmplitude -= currentAmplitude * attenuation;
-        std::cout << currentAmplitude << std::endl;
         numberSwings++;
     }
 
