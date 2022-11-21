@@ -48,5 +48,5 @@ int main() {
         numberSwings++;
     }
 
-    std::cout << "До остановки маятник качнётся: " << numberSwings << " раз." << (int)averageTempo % 60 << " сек." << std::endl;
+    std::cout << "До остановки маятник качнётся: " << numberSwings << "раз.";
 }
